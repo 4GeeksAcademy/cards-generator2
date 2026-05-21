@@ -1,5 +1,22 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+
+}
+
+.card {
+    height: 50vh;
+    width: 30vh;
+}
+.simbolos2 {
+      transform: rotate(180deg);
+
+}
+.simbolos1, .simbolos2, .numeros {
+    font-size: 7vh;
+}
+.rojo {
+    color: red !important;
 }
